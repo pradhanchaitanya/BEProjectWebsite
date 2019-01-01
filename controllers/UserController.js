@@ -27,7 +27,7 @@ module.exports = {
 
     post: (params) => {
         return new Promise((resolve, reject) => {
-            Player.create(params)
+            User.create(params)
             .then(data => {
                 resolve(data)
             })
